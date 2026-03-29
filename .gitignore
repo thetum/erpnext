@@ -1,0 +1,40 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local agent / assistant state
+.claude/
+.codex/
+.gemini/
+.mcp.json
+.playwright-mcp/
+ 
+.serena/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node / TypeScript artifacts
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Playwright artifacts
+playwright-report/
+test-results/
+
+# Generated exports
+exports/*.csv
