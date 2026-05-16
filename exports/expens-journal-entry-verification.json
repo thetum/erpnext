@@ -1,0 +1,50 @@
+{
+  "docs": 71,
+  "status_counts": {
+    "1": 71
+  },
+  "debit": 346272.13,
+  "credit": 346272.13,
+  "sample": [
+    {
+      "name": "ACC-JV-2026-00001",
+      "docstatus": 1,
+      "posting_date": "2025-03-25",
+      "accounts": 9,
+      "debit": 11147.27,
+      "credit": 11147.27
+    },
+    {
+      "name": "ACC-JV-2026-00002",
+      "docstatus": 1,
+      "posting_date": "2025-04-04",
+      "accounts": 9,
+      "debit": 2815.3,
+      "credit": 2815.3
+    },
+    {
+      "name": "ACC-JV-2026-00003",
+      "docstatus": 1,
+      "posting_date": "2025-05-23",
+      "accounts": 9,
+      "debit": 5522.5,
+      "credit": 5522.5
+    },
+    {
+      "name": "ACC-JV-2026-00004",
+      "docstatus": 1,
+      "posting_date": "2025-05-29",
+      "accounts": 9,
+      "debit": 1858.87,
+      "credit": 1858.87
+    },
+    {
+      "name": "ACC-JV-2026-00005",
+      "docstatus": 1,
+      "posting_date": "2025-06-16",
+      "accounts": 9,
+      "debit": 8027.62,
+      "credit": 8027.62
+    }
+  ]
+}

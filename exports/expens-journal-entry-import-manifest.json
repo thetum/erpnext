@@ -1,0 +1,575 @@
+{
+  "created_count": 71,
+  "error_count": 0,
+  "created": [
+    {
+      "import_name": "JE-EXP-2568-0001",
+      "erpnext_name": "ACC-JV-2026-00001",
+      "posting_date": "2025-03-25",
+      "source_sheet": "2568",
+      "seq": "1",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0001 | Imported from expens.xlsx | C05020368/0002534 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0002",
+      "erpnext_name": "ACC-JV-2026-00002",
+      "posting_date": "2025-04-04",
+      "source_sheet": "2568",
+      "seq": "2",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0002 | Imported from expens.xlsx | C05020368/0002665 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0003",
+      "erpnext_name": "ACC-JV-2026-00003",
+      "posting_date": "2025-05-23",
+      "source_sheet": "2568",
+      "seq": "3",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0003 | Imported from expens.xlsx | C05020368/0003307 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0004",
+      "erpnext_name": "ACC-JV-2026-00004",
+      "posting_date": "2025-05-29",
+      "source_sheet": "2568",
+      "seq": "4",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0004 | Imported from expens.xlsx | C05020368/0003422 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0005",
+      "erpnext_name": "ACC-JV-2026-00005",
+      "posting_date": "2025-06-16",
+      "source_sheet": "2568",
+      "seq": "5",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0005 | Imported from expens.xlsx | C05020368/0003635 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0006",
+      "erpnext_name": "ACC-JV-2026-00006",
+      "posting_date": "2025-07-15",
+      "source_sheet": "2568",
+      "seq": "6",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0006 | Imported from expens.xlsx | C05020368/0004001 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0007",
+      "erpnext_name": "ACC-JV-2026-00007",
+      "posting_date": "2025-08-14",
+      "source_sheet": "2568",
+      "seq": "7",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0007 | Imported from expens.xlsx | C05020368/0004370 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0008",
+      "erpnext_name": "ACC-JV-2026-00008",
+      "posting_date": "2025-06-13",
+      "source_sheet": "2568",
+      "seq": "8",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0008 | Imported from expens.xlsx | PRV2506-0148 | บ.ตั้งซุนฮวดผลิตภัณฑ์ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0009",
+      "erpnext_name": "ACC-JV-2026-00009",
+      "posting_date": "2025-02-17",
+      "source_sheet": "2568",
+      "seq": "9",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0009 | Imported from expens.xlsx | PRV2502-0166 | บ.ตั้งซุนฮวดผลิตภัณฑ์ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0010",
+      "erpnext_name": "ACC-JV-2026-00010",
+      "posting_date": "2025-03-24",
+      "source_sheet": "2568",
+      "seq": "10",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0010 | Imported from expens.xlsx | PRV2503-0244 | บ.ตั้งซุนฮวดผลิตภัณฑ์ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0011",
+      "erpnext_name": "ACC-JV-2026-00011",
+      "posting_date": "2025-03-20",
+      "source_sheet": "2568",
+      "seq": "11",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0011 | Imported from expens.xlsx | PRV2503-0210 | บ.ตั้งซุนฮวดผลิตภัณฑ์ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0012",
+      "erpnext_name": "ACC-JV-2026-00012",
+      "posting_date": "2025-06-12",
+      "source_sheet": "2568",
+      "seq": "12",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0012 | Imported from expens.xlsx | SI0001/0012729 | บ. สไปซ์ สตอรี่ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0013",
+      "erpnext_name": "ACC-JV-2026-00013",
+      "posting_date": "2025-04-16",
+      "source_sheet": "2568",
+      "seq": "13",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0013 | Imported from expens.xlsx | TI2504160001 | ร้านเอกชัย"
+    },
+    {
+      "import_name": "JE-EXP-2568-0014",
+      "erpnext_name": "ACC-JV-2026-00014",
+      "posting_date": "2025-04-16",
+      "source_sheet": "2568",
+      "seq": "14",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0014 | Imported from expens.xlsx | TI2504160002 | ร้านเอกชัย"
+    },
+    {
+      "import_name": "JE-EXP-2568-0015",
+      "erpnext_name": "ACC-JV-2026-00015",
+      "posting_date": "2025-05-12",
+      "source_sheet": "2568",
+      "seq": "15",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0015 | Imported from expens.xlsx | 111000001356 | ร้านเอกชัย"
+    },
+    {
+      "import_name": "JE-EXP-2568-0016",
+      "erpnext_name": "ACC-JV-2026-00016",
+      "posting_date": "2025-07-09",
+      "source_sheet": "2568",
+      "seq": "16",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0016 | Imported from expens.xlsx | 111000001931 | ร้านเอกชัย"
+    },
+    {
+      "import_name": "JE-EXP-2568-0017",
+      "erpnext_name": "ACC-JV-2026-00017",
+      "posting_date": "2025-02-27",
+      "source_sheet": "2568",
+      "seq": "17",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0017 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0018",
+      "erpnext_name": "ACC-JV-2026-00018",
+      "posting_date": "2025-03-27",
+      "source_sheet": "2568",
+      "seq": "18",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0018 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0019",
+      "erpnext_name": "ACC-JV-2026-00019",
+      "posting_date": "2025-06-01",
+      "source_sheet": "2568",
+      "seq": "19",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0019 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0020",
+      "erpnext_name": "ACC-JV-2026-00020",
+      "posting_date": "2025-08-03",
+      "source_sheet": "2568",
+      "seq": "20",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0020 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0021",
+      "erpnext_name": "ACC-JV-2026-00021",
+      "posting_date": "2025-04-01",
+      "source_sheet": "2568",
+      "seq": "21",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0021 | Imported from expens.xlsx | BO6804-0108 | หจก.เชียงใหม่เบเกอร์มาร์ท"
+    },
+    {
+      "import_name": "JE-EXP-2568-0022",
+      "erpnext_name": "ACC-JV-2026-00022",
+      "posting_date": "2025-03-28",
+      "source_sheet": "2568",
+      "seq": "22",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0022 | Imported from expens.xlsx | 2568-03130 | บ.เพื่อนคุณธุรกิจ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0023",
+      "erpnext_name": "ACC-JV-2026-00023",
+      "posting_date": "2025-04-05",
+      "source_sheet": "2568",
+      "seq": "23",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0023 | Imported from expens.xlsx | 42568005 | บ.เพื่อนคุณธุรกิจ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0024",
+      "erpnext_name": "ACC-JV-2026-00024",
+      "posting_date": "2025-08-21",
+      "source_sheet": "2568",
+      "seq": "24",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0024 | Imported from expens.xlsx | 82568013 | บ.เพื่อนคุณธุรกิจ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0025",
+      "erpnext_name": "ACC-JV-2026-00025",
+      "posting_date": "2025-04-09",
+      "source_sheet": "2568",
+      "seq": "25",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0025 | Imported from expens.xlsx | HS68/04/011 | บ. ซี.ที.เอส.กล่องกระดาษเชียงใหม่ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0026",
+      "erpnext_name": "ACC-JV-2026-00026",
+      "posting_date": "2025-01-03",
+      "source_sheet": "2568",
+      "seq": "26",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0026 | Imported from expens.xlsx | RE2025010001 | บ. คิงส์วอเตอร์2017 จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0027",
+      "erpnext_name": "ACC-JV-2026-00027",
+      "posting_date": "2025-02-24",
+      "source_sheet": "2568",
+      "seq": "27",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0027 | Imported from expens.xlsx | RC16802006059 | สภาอุตสาหกรรมแห่งประเทศไทย"
+    },
+    {
+      "import_name": "JE-EXP-2568-0028",
+      "erpnext_name": "ACC-JV-2026-00028",
+      "posting_date": "2025-03-11",
+      "source_sheet": "2568",
+      "seq": "28",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0028 | Imported from expens.xlsx | IV16711009788 | สถาบันรหัสสากล GS1 THAILAND"
+    },
+    {
+      "import_name": "JE-EXP-2568-0029",
+      "erpnext_name": "ACC-JV-2026-00029",
+      "posting_date": "2025-06-27",
+      "source_sheet": "2568",
+      "seq": "29",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0029 | Imported from expens.xlsx | 30668/0028 | หจก. เชียงรายเทคโนคอม"
+    },
+    {
+      "import_name": "JE-EXP-2568-0030",
+      "erpnext_name": "ACC-JV-2026-00030",
+      "posting_date": "2025-04-29",
+      "source_sheet": "2568",
+      "seq": "30",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0030 | Imported from expens.xlsx | TV6804731 | บ. บี สมาร์ท ซายเอ็นซ์ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0031",
+      "erpnext_name": "ACC-JV-2026-00031",
+      "posting_date": "2025-06-07",
+      "source_sheet": "2568",
+      "seq": "31",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0031 | Imported from expens.xlsx | 191909 | บ. โฮม โปรดักส์ เซ็นเตอร์ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0032",
+      "erpnext_name": "ACC-JV-2026-00032",
+      "posting_date": "2025-03-27",
+      "source_sheet": "2568",
+      "seq": "32",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0032 | Imported from expens.xlsx | 188834 | บ. โฮม โปรดักส์ เซ็นเตอร์ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0033",
+      "erpnext_name": "ACC-JV-2026-00033",
+      "posting_date": "2025-05-09",
+      "source_sheet": "2568",
+      "seq": "33",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0033 | Imported from expens.xlsx | MACIE25050003330 | บ. ซีอาร์ซี ไทวัสดุ จำกัด(สาขาแม่จัน)"
+    },
+    {
+      "import_name": "JE-EXP-2568-0034",
+      "erpnext_name": "ACC-JV-2026-00034",
+      "posting_date": "2025-02-27",
+      "source_sheet": "2568",
+      "seq": "34",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0034 | Imported from expens.xlsx | MACIF25020019618 | บ. ซีอาร์ซี ไทวัสดุ จำกัด(สาขาแม่จัน)"
+    },
+    {
+      "import_name": "JE-EXP-2568-0035",
+      "erpnext_name": "ACC-JV-2026-00035",
+      "posting_date": "2025-01-21",
+      "source_sheet": "2568",
+      "seq": "35",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0035 | Imported from expens.xlsx | MACIF25010018556 | บ. ซีอาร์ซี ไทวัสดุ จำกัด(สาขาแม่จัน)"
+    },
+    {
+      "import_name": "JE-EXP-2568-0036",
+      "erpnext_name": "ACC-JV-2026-00036",
+      "posting_date": "2025-02-02",
+      "source_sheet": "2568",
+      "seq": "36",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0036 | Imported from expens.xlsx | MACIF25020018845 | บ. ซีอาร์ซี ไทวัสดุ จำกัด(สาขาแม่จัน)"
+    },
+    {
+      "import_name": "JE-EXP-2568-0037",
+      "erpnext_name": "ACC-JV-2026-00037",
+      "posting_date": "2025-01-11",
+      "source_sheet": "2568",
+      "seq": "37",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0037 | Imported from expens.xlsx | MACIF25010018248 | บ. ซีอาร์ซี ไทวัสดุ จำกัด(สาขาแม่จัน)"
+    },
+    {
+      "import_name": "JE-EXP-2568-0038",
+      "erpnext_name": "ACC-JV-2026-00038",
+      "posting_date": "2025-05-09",
+      "source_sheet": "2568",
+      "seq": "38",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0038 | Imported from expens.xlsx | 6672 | หจก.ลานนาเซนเตอร์มาร์ท"
+    },
+    {
+      "import_name": "JE-EXP-2568-0039",
+      "erpnext_name": "ACC-JV-2026-00039",
+      "posting_date": "2025-02-11",
+      "source_sheet": "2568",
+      "seq": "39",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0039 | Imported from expens.xlsx | 2076-103779 | หจก. ภาณุ ออยล์ เซอร์วิส"
+    },
+    {
+      "import_name": "JE-EXP-2568-0040",
+      "erpnext_name": "ACC-JV-2026-00040",
+      "posting_date": "2025-09-11",
+      "source_sheet": "2568",
+      "seq": "40",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0040 | Imported from expens.xlsx | C05020368/0004719 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0041",
+      "erpnext_name": "ACC-JV-2026-00041",
+      "posting_date": "2025-09-29",
+      "source_sheet": "2568",
+      "seq": "41",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0041 | Imported from expens.xlsx | C05020368/0004949 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0042",
+      "erpnext_name": "ACC-JV-2026-00042",
+      "posting_date": "2025-10-15",
+      "source_sheet": "2568",
+      "seq": "42",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0042 | Imported from expens.xlsx | C05020369/0000210 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0043",
+      "erpnext_name": "ACC-JV-2026-00043",
+      "posting_date": "2025-11-05",
+      "source_sheet": "2568",
+      "seq": "43",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0043 | Imported from expens.xlsx | C05020369/0000512 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0044",
+      "erpnext_name": "ACC-JV-2026-00044",
+      "posting_date": "2025-11-12",
+      "source_sheet": "2568",
+      "seq": "44",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0044 | Imported from expens.xlsx | C05020369/0000627 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0045",
+      "erpnext_name": "ACC-JV-2026-00045",
+      "posting_date": "2025-12-04",
+      "source_sheet": "2568",
+      "seq": "45",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0045 | Imported from expens.xlsx | C05020369/0000943 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0046",
+      "erpnext_name": "ACC-JV-2026-00046",
+      "posting_date": "2025-12-15",
+      "source_sheet": "2568",
+      "seq": "46",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0046 | Imported from expens.xlsx | C05020369/0001151 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2568-0047",
+      "erpnext_name": "ACC-JV-2026-00047",
+      "posting_date": "2025-09-06",
+      "source_sheet": "2568",
+      "seq": "47",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0047 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0048",
+      "erpnext_name": "ACC-JV-2026-00048",
+      "posting_date": "2025-09-15",
+      "source_sheet": "2568",
+      "seq": "48",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0048 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0049",
+      "erpnext_name": "ACC-JV-2026-00049",
+      "posting_date": "2025-09-06",
+      "source_sheet": "2568",
+      "seq": "49",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0049 | Imported from expens.xlsx | 22/1051 | ร้านผลศิริ"
+    },
+    {
+      "import_name": "JE-EXP-2568-0050",
+      "erpnext_name": "ACC-JV-2026-00050",
+      "posting_date": "2025-09-25",
+      "source_sheet": "2568",
+      "seq": "50",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0050 | Imported from expens.xlsx | TRV2509-1974 | บริษัทตั้งซุนฮวดผลิตภัณฑ์จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0051",
+      "erpnext_name": "ACC-JV-2026-00051",
+      "posting_date": "2025-10-20",
+      "source_sheet": "2568",
+      "seq": "51",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0051 | Imported from expens.xlsx | TRV2510-1509 | บริษัทตั้งซุนฮวดผลิตภัณฑ์จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0052",
+      "erpnext_name": "ACC-JV-2026-00052",
+      "posting_date": "2025-11-18",
+      "source_sheet": "2568",
+      "seq": "52",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0052 | Imported from expens.xlsx | INV2025110044 | ร้ านโฟร์แพค"
+    },
+    {
+      "import_name": "JE-EXP-2568-0053",
+      "erpnext_name": "ACC-JV-2026-00053",
+      "posting_date": "2025-10-07",
+      "source_sheet": "2568",
+      "seq": "53",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0053 | Imported from expens.xlsx | HS68/10/06 | บ. ซี.ที.เอส.กล่องกระดาษเชียงใหม่ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0054",
+      "erpnext_name": "ACC-JV-2026-00054",
+      "posting_date": "2025-10-23",
+      "source_sheet": "2568",
+      "seq": "54",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0054 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0055",
+      "erpnext_name": "ACC-JV-2026-00055",
+      "posting_date": "2025-10-26",
+      "source_sheet": "2568",
+      "seq": "55",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0055 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0056",
+      "erpnext_name": "ACC-JV-2026-00056",
+      "posting_date": "2025-11-14",
+      "source_sheet": "2568",
+      "seq": "56",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0056 | Imported from expens.xlsx | TRV2511-1014 | บริษัทตั้งซุนฮวดผลิตภัณฑ์จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0057",
+      "erpnext_name": "ACC-JV-2026-00057",
+      "posting_date": "2025-11-27",
+      "source_sheet": "2568",
+      "seq": "57",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0057 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0058",
+      "erpnext_name": "ACC-JV-2026-00058",
+      "posting_date": "2025-11-30",
+      "source_sheet": "2568",
+      "seq": "58",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0058 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0059",
+      "erpnext_name": "ACC-JV-2026-00059",
+      "posting_date": "2025-12-18",
+      "source_sheet": "2568",
+      "seq": "59",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0059 | Imported from expens.xlsx | HS68/12/037 | บ. ซี.ที.เอส.กล่องกระดาษเชียงใหม่ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0060",
+      "erpnext_name": "ACC-JV-2026-00060",
+      "posting_date": "2025-12-18",
+      "source_sheet": "2568",
+      "seq": "60",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0060 | Imported from expens.xlsx | HS68/12/036 | บ. ซี.ที.เอส.กล่องกระดาษเชียงใหม่ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0061",
+      "erpnext_name": "ACC-JV-2026-00061",
+      "posting_date": "2025-12-06",
+      "source_sheet": "2568",
+      "seq": "61",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0061 | Imported from expens.xlsx | 122568007 | บ. เพื่อนธุรกิจ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0062",
+      "erpnext_name": "ACC-JV-2026-00062",
+      "posting_date": "2025-12-13",
+      "source_sheet": "2568",
+      "seq": "62",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0062 | Imported from expens.xlsx | 122568014 | บ. เพื่อนธุรกิจ จำกัด"
+    },
+    {
+      "import_name": "JE-EXP-2568-0063",
+      "erpnext_name": "ACC-JV-2026-00063",
+      "posting_date": "2025-12-13",
+      "source_sheet": "2568",
+      "seq": "63",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0063 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0064",
+      "erpnext_name": "ACC-JV-2026-00064",
+      "posting_date": "2025-12-21",
+      "source_sheet": "2568",
+      "seq": "64",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0064 | Imported from expens.xlsx | None | นายขวัญชัย เผื่อขัน"
+    },
+    {
+      "import_name": "JE-EXP-2568-0065",
+      "erpnext_name": "ACC-JV-2026-00065",
+      "posting_date": "2025-10-19",
+      "source_sheet": "2568",
+      "seq": "65",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0065 | Imported from expens.xlsx | MACIE25100008383 | บริษัท ซีอาร์ซี ไทวัสดุ จำกัด (สาขาแม่จัน)"
+    },
+    {
+      "import_name": "JE-EXP-2568-0066",
+      "erpnext_name": "ACC-JV-2026-00066",
+      "posting_date": "2025-06-19",
+      "source_sheet": "2568",
+      "seq": "66",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0066 | Imported from expens.xlsx | MACIE25060004626 | บริษัท ซีอาร์ซี ไทวัสดุ จำกัด (สาขาแม่จัน)"
+    },
+    {
+      "import_name": "JE-EXP-2568-0067",
+      "erpnext_name": "ACC-JV-2026-00067",
+      "posting_date": "2025-10-27",
+      "source_sheet": "2568",
+      "seq": "67",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0067 | Imported from expens.xlsx | INV2025100055 | ร้ านโฟร์แพค"
+    },
+    {
+      "import_name": "JE-EXP-2568-0068",
+      "erpnext_name": "ACC-JV-2026-00068",
+      "posting_date": "2025-12-16",
+      "source_sheet": "2568",
+      "seq": "68",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2568-0068 | Imported from expens.xlsx | INV2025120045 | ร้ านโฟร์แพค"
+    },
+    {
+      "import_name": "JE-EXP-2569-0001",
+      "erpnext_name": "ACC-JV-2026-00069",
+      "posting_date": "2026-01-07",
+      "source_sheet": "2569",
+      "seq": "1",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2569-0001 | Imported from expens.xlsx | C05020369/0001509 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2569-0002",
+      "erpnext_name": "ACC-JV-2026-00070",
+      "posting_date": "2026-03-05",
+      "source_sheet": "2569",
+      "seq": "2",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2569-0002 | Imported from expens.xlsx | C05020369/0002240 | กรมสรรพสามิตร"
+    },
+    {
+      "import_name": "JE-EXP-2569-0003",
+      "erpnext_name": "ACC-JV-2026-00071",
+      "posting_date": "2026-04-01",
+      "source_sheet": "2569",
+      "seq": "3",
+      "user_remark": "API import from expens-journal-entry-import-final | JE-EXP-2569-0003 | Imported from expens.xlsx | C05020369/0002628 | กรมสรรพสามิตร"
+    }
+  ],
+  "errors": []
+}
