@@ -1,0 +1,33 @@
+
+<!-- SECTION: DETAIL -->
+<table class="detail-table font-size-sm">
+  <thead>
+    <tr>
+      <th style="width: 5%;">ลำดับ</th>
+      <th style="width: 42%;">รายการ</th>
+      <th style="width: 8%;">จำนวน</th>
+      <th style="width: 8%;">หน่วย</th>
+      <th style="width: 17%;">ราคาต่อหน่วย</th>
+      <th style="width: 17%;">ราคารวม</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in doc.items %}
+    <tr>
+      <td class="text-center">{{ loop.index }}</td>
+      <td>{{ item.item_name }}{% if item.description %} {{ item.description }}{% endif %}</td>
+      <td class="text-center">{{ item.qty|int }}</td>
+      <td class="text-center">{{ item.uom or '' }}</td>
+      <td class="text-right">{{ "{:,.2f}".format(item.rate) }}</td>
+      <td class="text-right">{{ "{:,.2f}".format(item.amount) }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr class="total-row">
+      <th colspan="4" class="empty-cell"></th>
+      <th class="total-label text-right">รวมทั้งสิ้น</th>
+      <th class="total-value text-right">{{ "{:,.2f}".format(doc.grand_total) }}</th>
+    </tr>
+  </tfoot>
+</table>

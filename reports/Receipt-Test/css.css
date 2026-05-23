@@ -1,0 +1,92 @@
+
+  .invoice-box {
+    font-family: 'TH Sarabun New', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.5;
+  }
+
+  .font-size-sm { font-size: 14px; }
+  .font-size-md { font-size: 16px; }
+  .font-size-lg { font-size: 22px; }
+
+  .text-center { text-align: center; }
+  .text-right  { text-align: right; }
+  .text-left   { text-align: left; }
+
+  div.print-heading, .print-heading {
+    display: none !important;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+  }
+
+  .receipt-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px 0;
+    border: none;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  table.info-table { width: 100%; border-collapse: collapse; }
+  table.info-table td { border: none; padding: 2px 0; vertical-align: top; }
+
+  hr.divider { border: none; border-top: 1px solid #aaa; margin: 10px 0; }
+
+  table.detail-table { width: 100%; border-collapse: collapse; margin-top: 0; }
+
+  table.detail-table thead th {
+    background-color: #f0f0f0;
+    color: #222;
+    padding: 7px 8px;
+    border: 1px solid #333;
+    text-align: center;
+  }
+
+  table.detail-table tbody td {
+    border: 1px solid #333;
+    padding: 5px 8px;
+  }
+
+  table.detail-table tbody tr:nth-child(even) td {
+    background-color: #f7f7f7;
+  }
+
+  table.detail-table .total-row .empty-cell {
+    background-color: #fff;
+    border: none;
+  }
+
+  table.detail-table .total-row .total-label,
+  table.detail-table .total-row .total-value {
+    background-color: #f0f0f0;
+    color: #222;
+    border: 1px solid #333;
+    padding: 7px 8px;
+  }
+
+  table.borderless { border-collapse: collapse; width: 100%; }
+  table.borderless th, table.borderless td { border: none; padding: 4px; }
+
+  .sig-box { border: 1px solid #333; text-align: center; }
+  .sig-box .sig-label {
+    border-bottom: 1px solid #333;
+    padding: 5px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  .sig-box .sig-area {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sig-box .sig-name {
+    border-top: 1px solid #333;
+    padding: 5px;
+    min-height: 30px;
+  }

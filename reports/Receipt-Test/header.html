@@ -1,0 +1,54 @@
+
+<table class="info-table" style="margin-bottom:0;">
+  <tr>
+    <!-- ซ้าย: logo + ชื่อบริษัท inline -->
+    <td style="width:55%; vertical-align:middle;">
+      <table style="border:none; margin:0;">
+        <tr>
+          <td style="border:none; padding:0; vertical-align:middle;">
+            <img src="/files/Chiangrai-NextStep-logo.png" alt="Logo"
+                 style="width:80px; height:auto; display:block;">
+          </td>
+          <td style="border:none; padding:0 0 0 10px; vertical-align:middle;">
+            {% set comp = frappe.get_doc("Address", doc.company_address) %}
+            <div style="font-weight:bold; font-size:14px; white-space:nowrap;">{{ comp.address_title }}</div>
+            <div style="font-size:12px; color:#444; line-height:1.6;">
+              {{ comp.address_line1 }}{% if comp.address_line2 %}, {{ comp.address_line2 }}{% endif %}<br>
+              อ.{{ comp.city or '' }}, จ.{{ comp.state or '' }} {{ comp.pincode or '' }}<br>
+              Tel: {{ comp.phone or '-' }}
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+
+    <!-- ขวา: Title + เลขที่ + วันที่ -->
+    <td style="width:45%; text-align:right; vertical-align:middle;">
+      <div style="font-size:26px; font-weight:bold; letter-spacing:1px; white-space:nowrap;">ใบเสร็จรับเงิน</div>
+      {% set rows = frappe.db.sql("""
+        select pe.name, pe.posting_date
+        from `tabPayment Entry` pe
+        join `tabPayment Entry Reference` per on per.parent = pe.name
+        where per.reference_name = %s
+          and pe.docstatus = 1
+        order by pe.posting_date desc, pe.modified desc
+      """, (doc.name,), as_dict=1) %}
+      {% for r in rows %}
+      <div style="font-size:14px;"><strong>เลขที่ :</strong> {{ r.name }}</div>
+      <div style="font-size:14px;"><strong>วันที่&nbsp;:</strong> {{ frappe.utils.formatdate(r.posting_date, "d/M/yyyy") }}</div>
+      {% endfor %}
+    </td>
+  </tr>
+</table>
+
+<hr class="divider" style="margin:6px 0;">
+
+<div style="font-size:14px; margin-bottom:4px;">
+  <strong>ชื่อลูกค้า :</strong> {{ doc.customer_name }}
+  {% if doc.customer_address %}
+  {% set addr = frappe.get_doc("Address", doc.customer_address) %}
+  &nbsp;{{ addr.address_line1 }}{% if addr.address_line2 %}, {{ addr.address_line2 }}{% endif %}
+  &nbsp;อ.{{ addr.city or '' }}, จ.{{ addr.state or '' }} {{ addr.pincode or '' }}
+  {% endif %}
+</div>
+<hr class="divider" style="margin:4px 0 0 0;">
