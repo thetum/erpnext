@@ -1,7 +1,4 @@
-# Secrets and local environment
-.env
-.env.*
-!.env.example
+
 
 # Local agent / assistant state
 .claude/

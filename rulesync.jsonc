@@ -2,7 +2,8 @@
   "targets": [
     "claudecode",
     "codexcli",
-    "geminicli"
+    "geminicli",
+    "antigravity"
   ],
   "features": [
     "rules",
