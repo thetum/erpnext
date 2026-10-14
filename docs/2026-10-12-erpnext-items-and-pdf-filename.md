@@ -26,6 +26,8 @@
 
 ## 2. แก้ชื่อไฟล์ PDF ตอน Print ให้เป็นเลขที่เอกสาร
 
+> **ยกเลิกแล้ว (2026-10-14):** Property Setter `title_field = "name"` ทำให้หน้า list ของทั้ง 7 DocType ไม่แสดงข้อมูล จึงลบออกและไปตั้งชื่อไฟล์ใน Print Format แทน ดู [2026-10-14-fix-list-view-and-pdf-title.md](2026-10-14-fix-list-view-and-pdf-title.md)
+
 **ปัญหาเดิม:** ตอนเปิด Print Preview แล้วกด Ctrl+P → Save as PDF ของเบราว์เซอร์ ชื่อไฟล์ที่เบราว์เซอร์เสนอจะดึงจาก `<title>` ของหน้า ซึ่งเดิมดึงมาจากชื่อลูกค้า/ผู้ขาย (field `customer_name` / `supplier_name`) ไม่ใช่เลขที่เอกสาร
 
 **สาเหตุเชิงเทคนิค:** `<title>` ของหน้า print มาจาก `doc.get_title()` ซึ่งอ้างตาม `title_field` ของ DocType meta แต่ถ้า `title_field` ถูกเคลียร์เป็นค่าว่างเฉยๆ ระบบจะ fallback ไปใช้ field ที่ชื่อ `title` (เป็น hidden field ของแต่ละ doctype ที่ถูก sync ค่าชื่อลูกค้า/ผู้ขายไว้อีกที) แทนการ fallback ไปที่ `name` — จึงต้องตั้ง `title_field = "name"` ตรงๆ เท่านั้นจึงจะได้เลขที่เอกสารจริง
